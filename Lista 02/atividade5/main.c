@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 
     FILE *InputFile = fopen(argv[1], "r");
     if (InputFile == NULL) {
-        perror("Erro ao abrir arquivo(INPUT)");
+        perror("Erro (INPUT)");
         return 1;
     }
 
@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
 
     FILE *arquivoSaida = fopen("arq_palavras_ordenado.txt", "w");
     if (arquivoSaida == NULL) {
-        perror("Erro na abertura do arquivo(OUTPUT)");
+        perror("Erro (OUTPUT)");
         return 1;
     }
 
