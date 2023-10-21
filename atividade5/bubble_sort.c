@@ -1,4 +1,4 @@
-#include "bubble sort.h"
+#include "bubble_sort.h"
 #include <string.h>
 #define MaxTamanhoPalavra 100
 
